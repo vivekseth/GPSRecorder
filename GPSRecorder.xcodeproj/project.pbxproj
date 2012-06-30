@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B70A89159F596500A53EC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B70A88159F596500A53EC4 /* UIKit.framework */; };
+		32B70A8B159F596500A53EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B70A8A159F596500A53EC4 /* Foundation.framework */; };
+		32B70A8D159F596500A53EC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B70A8C159F596500A53EC4 /* CoreGraphics.framework */; };
+		32B70A93159F596500A53EC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32B70A91159F596500A53EC4 /* InfoPlist.strings */; };
+		32B70A95159F596500A53EC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B70A94159F596500A53EC4 /* main.m */; };
+		32B70A99159F596500A53EC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B70A98159F596500A53EC4 /* AppDelegate.m */; };
+		32B70A9C159F596500A53EC4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B70A9A159F596500A53EC4 /* MainStoryboard.storyboard */; };
+		32B70A9F159F596500A53EC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B70A9E159F596500A53EC4 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32B70A84159F596500A53EC4 /* GPSRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B70A88159F596500A53EC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32B70A8A159F596500A53EC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32B70A8C159F596500A53EC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32B70A90159F596500A53EC4 /* GPSRecorder-Info.plist */ = {isa = PBXFileReference; path = "GPSRecorder-Info.plist"; sourceTree = "<group>"; };
+		32B70A92159F596500A53EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32B70A94159F596500A53EC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32B70A96159F596500A53EC4 /* GPSRecorder-Prefix.pch */ = {isa = PBXFileReference; path = "GPSRecorder-Prefix.pch"; sourceTree = "<group>"; };
+		32B70A97159F596500A53EC4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		32B70A98159F596500A53EC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32B70A9B159F596500A53EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		32B70A9D159F596500A53EC4 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		32B70A9E159F596500A53EC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B70A81159F596500A53EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B70A89159F596500A53EC4 /* UIKit.framework in Frameworks */,
+				32B70A8B159F596500A53EC4 /* Foundation.framework in Frameworks */,
+				32B70A8D159F596500A53EC4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B70A79159F596500A53EC4 = {
+			isa = PBXGroup;
+			children = (
+				32B70A8E159F596500A53EC4 /* GPSRecorder */,
+				32B70A87159F596500A53EC4 /* Frameworks */,
+				32B70A85159F596500A53EC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32B70A85159F596500A53EC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B70A84159F596500A53EC4 /* GPSRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B70A87159F596500A53EC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32B70A88159F596500A53EC4 /* UIKit.framework */,
+				32B70A8A159F596500A53EC4 /* Foundation.framework */,
+				32B70A8C159F596500A53EC4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32B70A8E159F596500A53EC4 /* GPSRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				32B70A97159F596500A53EC4 /* AppDelegate.h */,
+				32B70A98159F596500A53EC4 /* AppDelegate.m */,
+				32B70A9A159F596500A53EC4 /* MainStoryboard.storyboard */,
+				32B70A9D159F596500A53EC4 /* ViewController.h */,
+				32B70A9E159F596500A53EC4 /* ViewController.m */,
+				32B70A8F159F596500A53EC4 /* Supporting Files */,
+			);
+			path = GPSRecorder;
+			sourceTree = "<group>";
+		};
+		32B70A8F159F596500A53EC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32B70A90159F596500A53EC4 /* GPSRecorder-Info.plist */,
+				32B70A91159F596500A53EC4 /* InfoPlist.strings */,
+				32B70A94159F596500A53EC4 /* main.m */,
+				32B70A96159F596500A53EC4 /* GPSRecorder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B70A83159F596500A53EC4 /* GPSRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B70AA2159F596500A53EC4 /* Build configuration list for PBXNativeTarget "GPSRecorder" */;
+			buildPhases = (
+				32B70A80159F596500A53EC4 /* Sources */,
+				32B70A81159F596500A53EC4 /* Frameworks */,
+				32B70A82159F596500A53EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSRecorder;
+			productName = GPSRecorder;
+			productReference = 32B70A84159F596500A53EC4 /* GPSRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B70A7B159F596500A53EC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 32B70A7E159F596500A53EC4 /* Build configuration list for PBXProject "GPSRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32B70A79159F596500A53EC4;
+			productRefGroup = 32B70A85159F596500A53EC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B70A83159F596500A53EC4 /* GPSRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32B70A82159F596500A53EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B70A93159F596500A53EC4 /* InfoPlist.strings in Resources */,
+				32B70A9C159F596500A53EC4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B70A80159F596500A53EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B70A95159F596500A53EC4 /* main.m in Sources */,
+				32B70A99159F596500A53EC4 /* AppDelegate.m in Sources */,
+				32B70A9F159F596500A53EC4 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32B70A91159F596500A53EC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B70A92159F596500A53EC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32B70A9A159F596500A53EC4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B70A9B159F596500A53EC4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32B70AA0159F596500A53EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32B70AA1159F596500A53EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32B70AA3159F596500A53EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPSRecorder/GPSRecorder-Prefix.pch";
+				INFOPLIST_FILE = "GPSRecorder/GPSRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32B70AA4159F596500A53EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPSRecorder/GPSRecorder-Prefix.pch";
+				INFOPLIST_FILE = "GPSRecorder/GPSRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B70A7E159F596500A53EC4 /* Build configuration list for PBXProject "GPSRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B70AA0159F596500A53EC4 /* Debug */,
+				32B70AA1159F596500A53EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B70AA2159F596500A53EC4 /* Build configuration list for PBXNativeTarget "GPSRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B70AA3159F596500A53EC4 /* Debug */,
+				32B70AA4159F596500A53EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B70A7B159F596500A53EC4 /* Project object */;
+}
